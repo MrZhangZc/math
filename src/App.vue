@@ -20,7 +20,7 @@
         clearable>
       </el-input>
       <el-button class="btn" type="success" @click="formula2()">提交</el-button>
-      <span class="result">结果：  {{this.result2}}</span>
+      <span class="result">结果:  {{this.result2}}</span>
     </div>
     <div class="container">
       <span class="title">3, S-W 指数</span>
@@ -31,7 +31,7 @@
         clearable>
       </el-input>
       <el-button class="btn" type="success" @click="formula4()">提交</el-button>
-      <span class="result">结果：  {{this.result4}}</span>
+      <span class="result">结果:  {{this.result4}}</span>
     </div>
     <div class="container">
       <span class="title">4，均匀度指数</span>
@@ -42,7 +42,7 @@
         clearable>
       </el-input>
       <el-button class="btn" type="success" @click="formula3()">提交</el-button>
-      <span class="result">结果：  {{this.result3}}</span>
+      <span class="result">结果:  {{this.result3}}</span>
     </div>
     <div class="container2">
       <span class="title">5, 一次得到所有结果</span>
@@ -53,7 +53,7 @@
         clearable>
       </el-input>
       <el-button class="btn" type="success" @click="formula5()">提交</el-button>
-      <span class="result">结果：  {{this.result5}}</span>
+      <span class="result">结果: </span>
       <el-table
       v-if="this.result5"
       :data="tableData"
